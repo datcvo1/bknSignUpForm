@@ -1,0 +1,53 @@
+body
+{
+    margin: 0;
+}
+
+#container
+{
+    display: flex;
+    height: 850px;
+    width: 400px;
+    flex-direction: column;
+    margin: 1vh auto;
+}
+
+.row
+{
+    flex: 1;
+    display: flex;
+}
+
+.pixel
+{
+    flex: 1;
+}
+
+#title
+{
+    position: absolute;
+    background-color: transparent;
+    width: 400px;
+}
+
+h1
+{
+    font-size: 4rem;
+    text-align: center;
+}
+
+#instruction
+{
+    position: absolute;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    width: 400px;
+    top: 400px;
+}
+
+h2
+{
+    font-size: 1.5rem;
+    text-align: center; 
+}
